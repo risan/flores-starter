@@ -1,0 +1,13 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <article class="post">
+    <h1>{{ frontMatter.title }}</h1>
+
+    <time datetime="{{ frontMatter.date.toISOString() }}" pubdate>
+      {{ frontMatter.date | formatDate }}
+    </time>
+
+    {{ content | safe }}
+  </article>
+{% endblock %}

@@ -1,0 +1,15 @@
+@import "_base.css";
+
+:root {
+  --container-width: 700px;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 1.5rem auto;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "flores-starter",
+  "version": "1.0.0",
+  "description": "Flores starter template for blog.",
+  "keywords": [
+    "flores",
+    "flores-starter"
+  ],
+  "homepage": "https://github.com/risan/flores-starter#readme",
+  "bugs": {
+    "url": "https://github.com/risan/flores-starter/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Risan Bagja Pradana",
+    "email": "risanbagja@gmail.com",
+    "url": "https://bagja.net"
+  },
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/risan/flores-starter.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production flores build",
+    "serve": "flores serve",
+    "watch": "flores watch"
+  },
+  "devDependencies": {
+    "flores-cli": "^1.0.0-beta.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
